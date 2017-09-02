@@ -1,0 +1,14 @@
+/*
+Theme Name:
+Theme URI: https://csagpro.github.io/site
+Author: csagpro
+Author URI: https://csagpro.github.io/site
+Description:
+Version: 1.0
+Tags:
+*/
+.hidden {
+    /*visibility: hidden;*/
+    display: none;
+    /*font-size: 44px;*/
+}
