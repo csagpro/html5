@@ -46,34 +46,33 @@
 */		</style>
 	</head>
 	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12" style="height: 50px;">
+					<nav class="navbar navbar-default navbar-fixed-top">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Salão de beleza</a>
+						</div><!-- navbar-header -->
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Início</a></li>
+								<li><a href="#">Quem somos</a></li>
+								<li><a href="#">Serviços</a></li>
+								<li><a href="#">Novidades</a></li>
+								<li><a href="#">Contato</a></li>
+							</ul>
+						</div><!-- collapse -->
+					</nav><!-- nav -->
+				</div><!-- col -->
+			</div><!-- row -->
+		</div><!-- container-fluid -->
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-12" style="height: 50px;">
-						<nav class="navbar navbar-default navbar-fixed-top">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-								<a class="navbar-brand" href="#">Salão de beleza</a>
-							</div><!-- navbar-header -->
-							<div class="collapse navbar-collapse" id="myNavbar">
-								<ul class="nav navbar-nav">
-									<li class="active"><a href="#">Início</a></li>
-									<li><a href="#">Quem somos</a></li>
-									<li><a href="#">Serviços</a></li>
-									<li><a href="#">Novidades</a></li>
-									<li><a href="#">Contato</a></li>
-								</ul>
-							</div><!-- collapse -->
-						</nav><!-- nav -->
-					</div><!-- col -->
-				</div><!-- row -->
-			</div><!-- container-fluid -->
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12">
 						<div id="myCarousel" class="carousel slide" data-ride="carousel">
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
@@ -94,7 +93,6 @@
 								</div>
 							</div>
 						</div><!-- myCarousel -->
-					</div>
 				</div><!-- row -->
 			</div><!-- container-fluid -->
 			<div class="container-fluid">
