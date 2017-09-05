@@ -42,29 +42,35 @@
 				/*outline: 1px solid blue !important;*/
 				/*margin:none !important;*/
 			}
-			li{font-weight: bold;}
-		</style>
+/*			li{font-weight: bold;}
+*/		</style>
 	</head>
 	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid" >
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12" style="height: 50px;">
+						<nav class="navbar navbar-default navbar-fixed-top">
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-								<a class="navbar-brand" href="#">WebSiteName</a>
+								<a class="navbar-brand" href="#">Salão de beleza</a>
 							</div><!-- navbar-header -->
 							<div class="collapse navbar-collapse" id="myNavbar">
 								<ul class="nav navbar-nav">
-									<li class="active"><a href="#">Page 1</a></li>
-									<li><a href="#">Page 2</a></li>
-									<li><a href="#">Page 3</a></li>
+									<li class="active"><a href="#">Início</a></li>
+									<li><a href="#">Quem somos</a></li>
+									<li><a href="#">Serviços</a></li>
+									<li><a href="#">Novidades</a></li>
+									<li><a href="#">Contato</a></li>
 								</ul>
 							</div><!-- collapse -->
+						</nav><!-- nav -->
+					</div><!-- col -->
+				</div><!-- row -->
 			</div><!-- container-fluid -->
-		</nav>
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-12">
