@@ -7,13 +7,27 @@ Description:
 Version: 1.0
 Tags:
 */
-* {
+/** {
     outline: 1px solid blue !important;
-}
+}*/
 .main_faixa {
     padding-top: 15px;
     padding-bottom: 75px;
     height: 80px;
-    background-color: #420060;
+    background-color: #482F44;
     color: white;
+}
+/*.navbar-brand,
+.navbar-nav li a {
+    line-height: 150px;
+    height: 50px;
+    padding-top: 0;
+}*/
+footer {
+    margin-bottom: 0;
+    background-color: #482F44;
+    color: white;
+    height: 200px;
+    /*padding-bottom: -50px;*/
+    padding-top: 15px;
 }

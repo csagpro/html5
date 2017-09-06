@@ -12,7 +12,7 @@
 		<link rel="alternate" type="application/rss+xml" title="RSS/Feed" href="rss.xml"><!-- feed -->
 
 		<link rel="stylesheet" href="css/style.css"><!-- folha estilo principal - classes com underline-->
-		<!-- <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css"> -->
+		<link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap css - classes com traço-->
 
 		<script src="js/jquery.min.js"></script><!-- bootstrap jquery -->
@@ -35,17 +35,6 @@
 				$('[data-toggle="popover"]').popover();
 			});
 		</script>
-
-
-		<style type="text/css">
-			*{
-				outline: 1px solid blue !important;
-				/*margin:none !important;*/
-			}
-		 .main_faixa {
-		 	padding-top: 15px; padding-bottom: 75px; height: 80px; background-color: #420060; color:white;
-		 }
-		</style>
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -154,11 +143,16 @@
 		</div> -->
 		<footer class="container-fluid">
 			<div class="row">
-				<div class="col-md-6">
-					<p>Redes sociais</p>
+				<div class="col-sm-6">
+					<h4><b>Redes sociais</b></h4>
+					<img src="images/icones_redes_sociais.png" width="300" height="60">
 				</div>
-				<div class="col-md-6">
-					<p>Atendimento</p>
+				<div class="col-sm-6">
+					<h4><b>Atendimento</b></h4>
+					<p>SEG à SAB - 10h - 19h</p>
+					<p>contato@salaodebeleza.com.br</p>
+					<p>Tel: 11 2345-6789</p>
+					<p>Rua Lorem Ipsum. 2334 - Santos, SP</p>
 				</div>
 			</div><!-- row -->
 		</footer>
