@@ -91,13 +91,15 @@
 			</div><!-- row -->
 		</div><!-- container-fluid -->
 		<!-- faixa abaixo carousel -->
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12 text-center main_faixa">
-					<h1 style="margin-bottom: 0; margin-top: 0;">O lugar ideal para cuidar da sua beleza.</h1>
-					<p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				</div>
-			</div>
+		<div class="container-fluid main_faixa">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-left">
+						<h1 style="margin-bottom: 0; margin-top: 0;">O lugar ideal para cuidar da sua beleza.</h1>
+						<p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div><!-- col-md-12 -->
+				</div><!-- row -->
+			</div><!--container -->
 		</div><!-- container-fluid -->
 		<!-- content -->
 		<div class="container main_content main_margin">
