@@ -7,15 +7,22 @@ Description:
 Version: 1.0
 Tags:
 */
-/** {
+* {
     outline: 1px solid blue !important;
-}*/
+}
 .main_faixa {
     padding-top: 15px;
     padding-bottom: 75px;
     height: 80px;
     background-color: #482F44;
     color: white;
+}
+.main_content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main_margin{
+    padding-left: 55px !important;
 }
 /*.navbar-brand,
 .navbar-nav li a {

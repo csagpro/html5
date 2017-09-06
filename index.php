@@ -37,31 +37,35 @@
 		</script>
 	</head>
 	<body>
+		<!-- nav -->
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12" style="height: 50px;">
-					<nav class="navbar navbar-default navbar-fixed-top">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand" href="#">Salão de beleza</a>
-						</div><!-- navbar-header -->
-						<div class="collapse navbar-collapse" id="myNavbar">
-							<ul class="nav navbar-nav">
-								<li class="active"><a href="#">Início</a></li>
-								<li><a href="#">Quem somos</a></li>
-								<li><a href="#">Serviços</a></li>
-								<li><a href="#">Novidades</a></li>
-								<li><a href="#">Contato</a></li>
-							</ul>
-						</div><!-- collapse -->
-					</nav><!-- nav -->
-				</div><!-- col -->
-			</div><!-- row -->
+				<div class="row ">
+					<div class="col-md-12" style="height: 50px;">
+						<nav class="navbar navbar-default navbar-fixed-top">
+							<div class="container">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									<a class="navbar-brand" href="#">Salão de beleza</a>
+								</div><!-- navbar-header -->
+								<div class="collapse navbar-collapse" id="myNavbar">
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="#">Início</a></li>
+										<li><a href="#">Quem somos</a></li>
+										<li><a href="#">Serviços</a></li>
+										<li><a href="#">Novidades</a></li>
+										<li><a href="#">Contato</a></li>
+									</ul>
+								</div><!-- collapse -->
+							</div><!-- container -->
+						</nav><!-- nav -->
+					</div><!-- col -->
+				</div><!-- row -->
 		</div><!-- container-fluid -->
+		<!-- carousel -->
 		<div class="container-fluid">
 			<div class="row">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -86,6 +90,7 @@
 					</div><!-- myCarousel -->
 			</div><!-- row -->
 		</div><!-- container-fluid -->
+		<!-- faixa abaixo carousel -->
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 text-center main_faixa">
@@ -94,13 +99,14 @@
 				</div>
 			</div>
 		</div><!-- container-fluid -->
-		<!-- <div class="container" style="height: 200px !important;">
+		<!-- content -->
+		<div class="container main_content main_margin">
 			<div class="row">
-				<div class="col-md-6">
-					<h2>Alguns dos nossos serviços:</h2>
+				<div class="col-sm-6">
+					<h4><b>Alguns dos nossos serviços:</b></h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a pulvinar dui, a dignissim augue. Aliquam dui velit, vulputate non diam id, efficitur auctor augue.</p>
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-sm-6">
 							<ul>
 								<li>1</li>
 								<li>2</li>
@@ -108,8 +114,8 @@
 								<li>4</li>
 								<li>5</li>
 							</ul>
-						</div>
-						<div class="col-md-6">
+						</div><!-- col-sm-6 -->
+						<div class="col-sm-6">
 							<ul>
 								<li>6</li>
 								<li>7</li>
@@ -117,36 +123,38 @@
 								<li>9</li>
 								<li>10</li>
 							</ul>
-						</div>
-					</div>
+						</div><!-- col-sm-6 -->
+					</div><!-- row -->
 				</div>
-				<div class="col-md-6">
+				<div class="col-sm-6">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-sm-4">
 							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
 							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
 							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-sm-4">
 							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
 							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
 							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-sm-4">
 							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
 							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
 							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-		<footer class="container-fluid">
+					</div><!-- row -->
+				</div><!-- col-sm-6 -->
+			</div><!-- row -->
+		</div>
+		<!-- footer -->
+		<footer class="container-fluid main_margin">
 			<div class="row">
 				<div class="col-sm-6">
 					<h4><b>Redes sociais</b></h4>
 					<img src="images/icones_redes_sociais.png" width="300" height="60">
 				</div>
+				<!-- <div class="clearfix visible-xs-block"></div> -->
 				<div class="col-sm-6">
 					<h4><b>Atendimento</b></h4>
 					<p>SEG à SAB - 10h - 19h</p>
