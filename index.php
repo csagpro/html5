@@ -39,11 +39,13 @@
 
 		<style type="text/css">
 			*{
-				/*outline: 1px solid blue !important;*/
+				outline: 1px solid blue !important;
 				/*margin:none !important;*/
 			}
-/*			li{font-weight: bold;}
-*/		</style>
+		 .main_faixa {
+		 	padding-top: 15px; padding-bottom: 75px; height: 80px; background-color: #420060; color:white;
+		 }
+		</style>
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -71,84 +73,94 @@
 				</div><!-- col -->
 			</div><!-- row -->
 		</div><!-- container-fluid -->
-			<div class="container-fluid">
-				<div class="row">
-						<div id="myCarousel" class="carousel slide" data-ride="carousel">
-							<!-- Indicators -->
-							<ol class="carousel-indicators">
-								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-								<li data-target="#myCarousel" data-slide-to="1"></li>
-								<li data-target="#myCarousel" data-slide-to="2"></li>
-							</ol>
-							<!-- Wrapper for slides -->
-							<div class="carousel-inner">
-								<div class="item active">
-									<img src="images/ed_2_3.jpg" alt="Los Angeles">
-								</div>
-								<div class="item">
-									<img src="images/ed_2_3.jpg" alt="Chicago">
-								</div>
-								<div class="item">
-									<img src="images/ed_2_3.jpg" alt="New york">
-								</div>
+		<div class="container-fluid">
+			<div class="row">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+						</ol>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="images/ed_2_3.jpg" alt="Los Angeles">
 							</div>
-						</div><!-- myCarousel -->
-				</div><!-- row -->
-			</div><!-- container-fluid -->
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12 text-center" style="padding: 0 !important;height: 80px; background-color: #420060; color:white;">
-						<h1 style="margin-bottom: 0; margin-top: 0;">O lugar ideal para cuidar da sua beleza.</h1>
-						<p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					</div>
-				</div>
-			</div>
-			<div class="container" style="height: 200px !important;">
-				<div class="row">
-					<div class="col-md-6">
-						<h2>Alguns dos nossos serviços:</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a pulvinar dui, a dignissim augue. Aliquam dui velit, vulputate non diam id, efficitur auctor augue.</p>
-						<div class="row">
-							<div class="col-md-6">
-								<ul>
-									<li>1</li>
-									<li>2</li>
-									<li>3</li>
-									<li>4</li>
-									<li>5</li>
-								</ul>
+							<div class="item">
+								<img src="images/ed_2_3.jpg" alt="Chicago">
 							</div>
-							<div class="col-md-6">
-								<ul>
-									<li>6</li>
-									<li>7</li>
-									<li>8</li>
-									<li>9</li>
-									<li>10</li>
-								</ul>
+							<div class="item">
+								<img src="images/ed_2_3.jpg" alt="New york">
 							</div>
 						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-							</div>
-							<div class="col-md-4">
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-							</div>
-							<div class="col-md-4">
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-							</div>
+					</div><!-- myCarousel -->
+			</div><!-- row -->
+		</div><!-- container-fluid -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 text-center main_faixa">
+					<h1 style="margin-bottom: 0; margin-top: 0;">O lugar ideal para cuidar da sua beleza.</h1>
+					<p class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+		</div><!-- container-fluid -->
+		<!-- <div class="container" style="height: 200px !important;">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Alguns dos nossos serviços:</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a pulvinar dui, a dignissim augue. Aliquam dui velit, vulputate non diam id, efficitur auctor augue.</p>
+					<div class="row">
+						<div class="col-md-6">
+							<ul>
+								<li>1</li>
+								<li>2</li>
+								<li>3</li>
+								<li>4</li>
+								<li>5</li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<ul>
+								<li>6</li>
+								<li>7</li>
+								<li>8</li>
+								<li>9</li>
+								<li>10</li>
+							</ul>
 						</div>
 					</div>
 				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+						</div>
+						<div class="col-md-4">
+							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+						</div>
+						<div class="col-md-4">
+							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+						</div>
+					</div>
+				</div>
 			</div>
+		</div> -->
+		<footer class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Redes sociais</p>
+				</div>
+				<div class="col-md-6">
+					<p>Atendimento</p>
+				</div>
+			</div><!-- row -->
+		</footer>
 	</body>
 </html>
