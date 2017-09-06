@@ -7,13 +7,13 @@ Description:
 Version: 1.0
 Tags:
 */
-* {
+/** {
     outline: 1px solid blue !important;
-}
+}*/
 .main_faixa {
     padding-top: 15px;
-    padding-bottom: 75px;
-    height: 80px;
+    padding-bottom: 15px;
+    min-height: 80px;
     background-color: #482F44;
     color: white;
 }
@@ -22,8 +22,10 @@ Tags:
     padding-bottom: 20px;
 }
 .main_margin{
-    padding-left: 55px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
+
 /*.navbar-brand,
 .navbar-nav li a {
     line-height: 150px;
@@ -31,10 +33,10 @@ Tags:
     padding-top: 0;
 }*/
 footer {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
     background-color: #482F44;
     color: white;
-    height: 200px;
+    min-height: 200px;
     /*padding-bottom: -50px;*/
     padding-top: 15px;
 }

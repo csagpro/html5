@@ -41,7 +41,7 @@
 		<div class="container-fluid">
 				<div class="row ">
 					<div class="col-md-12" style="height: 50px;">
-						<nav class="navbar navbar-default navbar-fixed-top">
+						<nav class="navbar navbar-default">
 							<div class="container">
 								<div class="navbar-header">
 									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -102,69 +102,73 @@
 			</div><!--container -->
 		</div><!-- container-fluid -->
 		<!-- content -->
-		<div class="container main_content main_margin">
-			<div class="row">
-				<div class="col-sm-6">
-					<h4><b>Alguns dos nossos serviços:</b></h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a pulvinar dui, a dignissim augue. Aliquam dui velit, vulputate non diam id, efficitur auctor augue.</p>
-					<div class="row">
-						<div class="col-sm-6">
-							<ul>
-								<li>1</li>
-								<li>2</li>
-								<li>3</li>
-								<li>4</li>
-								<li>5</li>
-							</ul>
-						</div><!-- col-sm-6 -->
-						<div class="col-sm-6">
-							<ul>
-								<li>6</li>
-								<li>7</li>
-								<li>8</li>
-								<li>9</li>
-								<li>10</li>
-							</ul>
-						</div><!-- col-sm-6 -->
-					</div><!-- row -->
-				</div>
-				<div class="col-sm-6">
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-						</div>
-						<div class="col-sm-4">
-							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-						</div>
-						<div class="col-sm-4">
-							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-							<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-						</div>
-					</div><!-- row -->
-				</div><!-- col-sm-6 -->
-			</div><!-- row -->
-		</div>
+		<div class="container-fluid">
+			<div class="container main_content">
+				<div class="row">
+					<div class="col-sm-6">
+						<h4><b>Alguns dos nossos serviços:</b></h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a pulvinar dui, a dignissim augue. Aliquam dui velit, vulputate non diam id, efficitur auctor augue.</p>
+						<div class="row">
+							<div class="col-sm-6">
+								<ul>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+								</ul>
+							</div><!-- col-sm-6 -->
+							<div class="col-sm-6">
+								<ul>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10</li>
+								</ul>
+							</div><!-- col-sm-6 -->
+						</div><!-- row -->
+					</div>
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+							</div>
+							<div class="col-sm-4">
+								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+							</div>
+							<div class="col-sm-4">
+								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+							</div>
+						</div><!-- row -->
+					</div><!-- col-sm-6 -->
+				</div><!-- row -->
+			</div><!-- container -->
+		</div><!-- container-fluid -->
 		<!-- footer -->
-		<footer class="container-fluid main_margin">
-			<div class="row">
-				<div class="col-sm-6">
-					<h4><b>Redes sociais</b></h4>
-					<img src="images/icones_redes_sociais.png" width="300" height="60">
-				</div>
-				<!-- <div class="clearfix visible-xs-block"></div> -->
-				<div class="col-sm-6">
-					<h4><b>Atendimento</b></h4>
-					<p>SEG à SAB - 10h - 19h</p>
-					<p>contato@salaodebeleza.com.br</p>
-					<p>Tel: 11 2345-6789</p>
-					<p>Rua Lorem Ipsum. 2334 - Santos, SP</p>
-				</div>
-			</div><!-- row -->
+		<footer class="container-fluid">
+			<div class="container main_margin_footer">
+				<div class="row">
+					<div class="col-sm-6" style="padding-bottom: 20px;">
+						<h4><b>Redes sociais</b></h4>
+						<img src="images/icones_redes_sociais.png" width="300" height="60">
+					</div>
+					<!-- <div class="clearfix visible-xs-block"></div> -->
+					<div class="col-sm-6 text-right">
+						<h4><b>Atendimento</b></h4>
+						<p>SEG à SAB - 10h - 19h</p>
+						<p>contato@salaodebeleza.com.br</p>
+						<p>Tel: 11 2345-6789</p>
+						<p>Rua Lorem Ipsum. 2334 - Santos, SP</p>
+					</div>
+				</div><!-- row -->
+			</div><!-- container -->
 		</footer>
 	</body>
 </html>
