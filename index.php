@@ -41,27 +41,29 @@
 		<div class="container-fluid">
 				<div class="row ">
 					<div class="col-md-12" style="height: 50px;">
-						<nav class="navbar navbar-default">
-							<div class="container">
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-									<a class="navbar-brand" href="#">Salão de beleza</a>
-								</div><!-- navbar-header -->
-								<div class="collapse navbar-collapse" id="myNavbar">
-									<ul class="nav navbar-nav">
-										<li class="active"><a href="#">Início</a></li>
-										<li><a href="#">Quem somos</a></li>
-										<li><a href="#">Serviços</a></li>
-										<li><a href="#">Novidades</a></li>
-										<li><a href="#">Contato</a></li>
-									</ul>
-								</div><!-- collapse -->
-							</div><!-- container -->
-						</nav><!-- nav -->
+						<div class="row">
+							<nav class="navbar navbar-default">
+								<div class="container">
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+										<a class="navbar-brand" href="#">Salão de beleza</a>
+									</div><!-- navbar-header -->
+									<div class="collapse navbar-collapse" id="myNavbar">
+										<ul class="nav navbar-nav">
+											<li class="active"><a href="#">Início</a></li>
+											<li><a href="#">Quem somos</a></li>
+											<li><a href="#">Serviços</a></li>
+											<li><a href="#">Novidades</a></li>
+											<li><a href="#">Contato</a></li>
+										</ul>
+									</div><!-- collapse -->
+								</div><!-- container -->
+							</nav><!-- nav -->
+						</div>
 					</div><!-- col -->
 				</div><!-- row -->
 		</div><!-- container-fluid -->
@@ -105,12 +107,12 @@
 		<div class="container-fluid">
 			<div class="container main_content">
 				<div class="row">
-					<div class="col-sm-6">
-						<h4><b>Alguns dos nossos serviços:</b></h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a pulvinar dui, a dignissim augue. Aliquam dui velit, vulputate non diam id, efficitur auctor augue.</p>
+					<div class="col-lg-6 text-justify">
+						<h4 style="margin-top: 0; margin-bottom: 20px;"><b>Alguns dos nossos serviços:</b></h4>
+						<p style="margin-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a pulvinar dui, a dignissim augue. Aliquam dui velit, vulputate non diam id, efficitur auctor augue.</p>
 						<div class="row">
-							<div class="col-sm-6">
-								<ul>
+							<div class="col-xs-6">
+								<ul style="padding: 15px;">
 									<li>1</li>
 									<li>2</li>
 									<li>3</li>
@@ -118,8 +120,8 @@
 									<li>5</li>
 								</ul>
 							</div><!-- col-sm-6 -->
-							<div class="col-sm-6">
-								<ul>
+							<div class="col-xs-6">
+								<ul style="padding: 15px;">
 									<li>6</li>
 									<li>7</li>
 									<li>8</li>
@@ -129,23 +131,22 @@
 							</div><!-- col-sm-6 -->
 						</div><!-- row -->
 					</div>
-					<div class="col-sm-6">
+					<!-- fotos -->
+					<div class="col-lg-6">
 						<div class="row">
-							<div class="col-sm-4">
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-							</div>
-							<div class="col-sm-4">
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-							</div>
-							<div class="col-sm-4">
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-								<div class="col-md-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
-							</div>
+									<div class="col-sm-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+									<div class="col-sm-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+									<div class="col-sm-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+						</div><!-- row -->
+						<div class="row main_padding">
+									<div class="col-sm-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+									<div class="col-sm-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+									<div class="col-sm-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+						</div><!-- row -->
+						<div class="row">
+									<div class="col-sm-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+									<div class="col-sm-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
+									<div class="col-sm-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
 						</div><!-- row -->
 					</div><!-- col-sm-6 -->
 				</div><!-- row -->
