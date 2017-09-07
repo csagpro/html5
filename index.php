@@ -39,57 +39,53 @@
 	<body>
 		<!-- nav -->
 		<div class="container-fluid">
-				<div class="row ">
-					<div class="col-md-12" style="height: 50px;">
-						<div class="row">
-							<nav class="navbar navbar-default">
-								<div class="container">
-									<div class="navbar-header">
-										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-										</button>
-										<a class="navbar-brand" href="#">Salão de beleza</a>
-									</div><!-- navbar-header -->
-									<div class="collapse navbar-collapse" id="myNavbar">
-										<ul class="nav navbar-nav">
-											<li class="active"><a href="#">Início</a></li>
-											<li><a href="#">Quem somos</a></li>
-											<li><a href="#">Serviços</a></li>
-											<li><a href="#">Novidades</a></li>
-											<li><a href="#">Contato</a></li>
-										</ul>
-									</div><!-- collapse -->
-								</div><!-- container -->
-							</nav><!-- nav -->
-						</div>
-					</div><!-- col -->
-				</div><!-- row -->
+			<div class="row ">
+				<nav class="navbar navbar-default">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">Salão de beleza</a>
+						</div><!-- navbar-header -->
+						<div class="collapse navbar-collapse" id="myNavbar">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Início</a></li>
+								<li><a href="#">Quem somos</a></li>
+								<li><a href="#">Serviços</a></li>
+								<li><a href="#">Novidades</a></li>
+								<li><a href="#">Contato</a></li>
+							</ul>
+						</div><!-- collapse -->
+					</div><!-- container -->
+				</nav><!-- nav -->
+			</div><!-- row -->
 		</div><!-- container-fluid -->
 		<!-- carousel -->
 		<div class="container-fluid">
 			<div class="row">
-					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-						<!-- Indicators -->
-						<ol class="carousel-indicators">
-							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-							<li data-target="#myCarousel" data-slide-to="1"></li>
-							<li data-target="#myCarousel" data-slide-to="2"></li>
-						</ol>
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner">
-							<div class="item active">
-								<img src="images/ed_2_3.jpg" alt="Los Angeles">
-							</div>
-							<div class="item">
-								<img src="images/ed_2_3.jpg" alt="Chicago">
-							</div>
-							<div class="item">
-								<img src="images/ed_2_3.jpg" alt="New york">
-							</div>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="images/ed_2_3.jpg" alt="Los Angeles">
 						</div>
-					</div><!-- myCarousel -->
+						<div class="item">
+							<img src="images/ed_2_3.jpg" alt="Chicago">
+						</div>
+						<div class="item">
+							<img src="images/ed_2_3.jpg" alt="New york">
+						</div>
+					</div>
+				</div><!-- myCarousel -->
 			</div><!-- row -->
 		</div><!-- container-fluid -->
 		<!-- faixa abaixo carousel -->
@@ -119,7 +115,7 @@
 									<li>4</li>
 									<li>5</li>
 								</ul>
-							</div><!-- col-sm-6 -->
+							</div><!-- col-xs-6 -->
 							<div class="col-xs-6">
 								<ul style="padding: 15px;">
 									<li>6</li>
@@ -128,9 +124,9 @@
 									<li>9</li>
 									<li>10</li>
 								</ul>
-							</div><!-- col-sm-6 -->
+							</div><!-- col-xs-6 -->
 						</div><!-- row -->
-					</div>
+					</div><!-- col-lg-6 -->
 					<!-- fotos -->
 					<div class="col-lg-6">
 						<div class="row">
@@ -148,13 +144,13 @@
 									<div class="col-sm-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
 									<div class="col-sm-4"><img class="img-responsive" src="images/1 (1).jpg" alt=""></div>
 						</div><!-- row -->
-					</div><!-- col-sm-6 -->
+					</div><!-- col-lg-6 -->
 				</div><!-- row -->
 			</div><!-- container -->
 		</div><!-- container-fluid -->
 		<!-- footer -->
 		<footer class="container-fluid">
-			<div class="container main_margin_footer">
+			<div class="container main_content">
 				<div class="row">
 					<div class="col-sm-6" style="padding-bottom: 20px;">
 						<h4><b>Redes sociais</b></h4>
